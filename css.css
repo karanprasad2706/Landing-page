@@ -1,0 +1,402 @@
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dbddf2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+
+/*=============================================================== Header=========================================== */
+header {
+    background-color: #6c48fa;
+    color: #fff;
+    padding: 10px 0; 
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav ul li {
+    margin-top: 0%;
+    margin-left: 20px; 
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+nav ul {
+    margin-left: 600px;
+    list-style: none;
+    display: flex;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*=============================================================== image=========================================== */
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image.png'), url('image3.jpg'), url('blog-29.png');
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.hero h2 {
+    color: #06b4fe;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #6c48fa;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*============================================================About Section=========================================== */
+
+.about {
+    margin-top: 10px;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.about h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1em;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.about button {
+    background-color: #6c48fa;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.about button:hover {
+    background-color: #00796b;
+}
+
+
+
+/*=============================================================== Team =========================================== */
+
+.team {
+    margin-top: 0px; 
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.team h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*=============================================================== Work $ Project =========================================== */
+
+
+.work {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.work h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #82a2f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+/*=============================================================== Services =========================================== */
+
+.services {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.services h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #82a2f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+
+
+/*=============================================================== Achievememt ========================================================= */
+
+.achievements {
+    padding: 40px 0;
+}
+
+.achievements h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.achievement-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.achievement-item {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #82a2f1;
+    border-radius: 10px;;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.achievement-item:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+
+
+
+
+/*=============================================================== Contact And From ========================================================= */
+
+.contact {
+    padding: 80px 0;
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact p {
+    color: #333;
+    font-size: 1.0em;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6c48fa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*=============================================================== Footer ========================================================= */
+
+footer {
+    background-color: #6c48fa;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p{
+    background-color: aliceblue;
+}
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
