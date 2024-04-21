@@ -400,3 +400,146 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 767px) {
+    nav ul {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    .hero {
+        padding-top: 20px;
+    }
+
+    .about {
+        padding: 4rem 2rem;
+    }
+
+    .services {
+        padding: 4rem 2rem;
+    }
+
+    .team {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .team-member {
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .projects-container {
+        padding: 20px;
+    }
+
+    .service {
+        margin: 10px;
+    }
+
+    .achievements {
+        padding: 20px;
+    }
+
+    .achievement-item {
+        margin: 10px;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav ul {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    .logo img {
+        margin-left: 10px;  
+        max-width: 60px;  
+    }
+
+    .navigation ul {
+        margin-right: 0px;
+        list-style: none;
+        display: auto;
+        gap: 10px;
+    }
+
+    .hero {
+        padding-top: 20px;
+    }
+
+    .about {
+        padding: 4rem 2rem;
+    }
+
+    .services {
+        padding: 4rem 2rem;
+    }
+
+    .team {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .team-member {
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .projects-container {
+        padding: 20px;
+    }
+
+    .service {
+        margin: 10px;
+    }
+
+    .achievements {
+        padding: 20px;
+    }
+
+    .achievement-item {
+        margin: 10px;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
